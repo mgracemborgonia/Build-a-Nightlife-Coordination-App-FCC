@@ -1,0 +1,21 @@
+@media (min-width: 200px) and (max-width: 400px) {
+    header, nav, section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    nav a, section button{
+        width: 100%;
+    }
+    section{
+        gap: 6px;
+    }
+    #plans-list .p-3{
+        display: flex;
+        align-items: center;
+        padding: 8px;
+    }
+    #plans-list .p-3 .mt-3{
+        padding: 8px;
+    }
+}
